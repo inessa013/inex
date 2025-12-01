@@ -8,6 +8,7 @@
     <title>Catalog</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-hover.css">
 </head>
 <body>
     <?php include_once __DIR__ . '/component/sprite-svg.php'; ?>

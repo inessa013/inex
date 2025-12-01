@@ -2,8 +2,8 @@ function renderCatalog(products, catalog){
     catalog.innerHTML='';
     products.forEach(function (elem) {
         card = `<article class="catalog__card card">
-                                <div class="card__img-wrapper" id-${elem.id}>
-                                    <img src="img/catalog/${elem.imgSrc}" alt="" class="card__img">
+                                <div class="card__img-wrapper" data-id="${elem.id}">
+                                    <img src="img/catalog/${elem.imgSrc}" alt="${elem.name}" class="card__img">
                                 </div>
                                 <div class="card__body">
                                     <div class="card__title">${elem.name}</div>

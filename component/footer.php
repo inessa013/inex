@@ -1,5 +1,5 @@
 <footer class="footer-background">
-    <div class="container">
+    <div class="footer__container container <?= $active === 'home' ? 'footer_border-none' : ''?>">
         <div class="blocf">
             <div class="blocfooter">
                 <h3>Companie</h3>

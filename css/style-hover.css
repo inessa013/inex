@@ -1,0 +1,42 @@
+/* menu link */
+
+.menu__link.menu__link_active:focus-visible {
+    border: none;
+    border-radius: var(--border-radius-ad);
+}
+
+.menu__link:focus-visible, .header__tel:focus-visible {
+    outline-color: var(--color-base);
+}
+
+
+.menu__link:hover, .header__tel:hover {
+    color: var(--color-base);
+}
+
+.menu__link:active, .header__tel:active {
+    color: var(--color-active);
+}
+
+/* icon active */
+
+.icons:focus-visible {
+    outline-color: var(--color-base);
+    
+}
+
+.icon:hover {
+    fill: var(--color-base);
+}
+
+.icon:active {
+    fill: var(--color-active)
+}
+
+.header_start .menu__link:hover {
+    color: var(--color-base);
+}
+
+.header_start .menu__link:active {
+    color: var(--color-active);
+}

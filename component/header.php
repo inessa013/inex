@@ -1,5 +1,5 @@
 
-    <header class="header">
+    <header class="header <?= $active === 'home' ? 'header_start' : ''?>">
         <div class="header__container container">
             <nav class="header__menu menu">
                 <ul class="menu__list">
