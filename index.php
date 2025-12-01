@@ -1,3 +1,5 @@
+<?php $active = 'home'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,26 +14,26 @@
     <?php include_once __DIR__ . '/component/header.php'; ?>
 
     <main class="main">
-        <section class="main__container container">
-            <h1 class="title-1">
-                Principala
-            </h1>
-            <a href="catalog.php" class="principala__button button">Deschide catalogul</a>
-        </section>
-        <div class="container">
-            <section class="catalog__flex" data-info>
-
-            </section>
-        </div>
-        <div class="principala">
+        <section class="catalog-start container section">
             
-        </div>
+            <div class="catalog-start__intro">
+                <h1 class="title-1">
+                    Principala
+                </h1>
+                <a href="catalog.php" class="principala__button button">Deschide catalogul</a>
+            </div>
+
+            <div class="catalog__flex" data-info>
+
+            </div>
+        </section>
         
         
     </main>
 
     <?php include_once __DIR__ . '/component/footer.php' ?>
     <script src="js/products.js"></script>
-    <script src="js/catalog.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/home.js"></script>
 </body>
 </html>

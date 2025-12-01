@@ -1,3 +1,5 @@
+<?php $active = 'catalog'; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -63,7 +65,9 @@
     </main>
 
     <?php include_once __DIR__ . '/component/footer.php' ?>
+
     <script src="js/products.js"></script>
+    <script src="js/render.js"></script>
     <script src="js/catalog.js"></script>
 </body>
 </html>

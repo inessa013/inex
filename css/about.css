@@ -1,0 +1,12 @@
+.about__informatie {
+    padding-block: 15px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about__paragraf {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-black);
+}

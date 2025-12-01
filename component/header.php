@@ -4,13 +4,13 @@
             <nav class="header__menu menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="index.php" class="menu__link">Principala</a>
+                        <a href="index.php" class="menu__link <?= $active === 'home' ? 'menu__link_active' : ''?>">Principala</a>
                     </li>
                     <li class="menu__item">
-                        <a href="catalog.php" class="menu__link menu__link_active">Catalog</a>
+                        <a href="catalog.php" class="menu__link <?= $active === 'catalog' ? 'menu__link_active' : ''?>">Catalog</a>
                     </li>
                     <li class="menu__item">
-                        <a href="about.php" class="menu__link">Despre noi</a>
+                        <a href="about.php" class="menu__link <?= $active === 'about' ? 'menu__link_active' : ''?>">Despre noi</a>
                     </li>
                 </ul>
             </nav>

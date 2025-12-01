@@ -30,7 +30,7 @@ body {
 }
 
 .section {
-    padding-block:50px;
+    padding-block: 50px;
 }
 
 /* title */
@@ -353,16 +353,17 @@ nav ul li a, .header__tel{
 
 /* principala */
 
-.main__container {
+.catalog-start__intro {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    padding-block: 30px;
+    padding-bottom: 30px;
 }
 
-.principala {
-    margin-bottom: 30px;
+.catalog-start .card__img-wrapper {
+    height: 500px;
 }
 
 /* footer start */
