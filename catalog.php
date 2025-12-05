@@ -9,10 +9,14 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-hover.css">
+    <link rel="stylesheet" href="css/auth.css">
 </head>
 <body>
-    <?php include_once __DIR__ . '/component/sprite-svg.php'; ?>
-    <?php include_once __DIR__ . '/component/header.php' ?>
+    <?php include_once __DIR__ . '/component/sprite-svg.tpl'; ?>
+    <?php include __DIR__ . '/component/auth.tpl';  ?>
+    <?php include_once __DIR__ . '/component/header.tpl' ?>
+
+    
 
     <main>
         <section class="section catalog">
@@ -65,10 +69,11 @@
         </section>
     </main>
 
-    <?php include_once __DIR__ . '/component/footer.php' ?>
+    <?php include_once __DIR__ . '/component/footer.tpl' ?>
 
     <script src="js/products.js"></script>
     <script src="js/render.js"></script>
     <script src="js/catalog.js"></script>
+    <script src="js/auth.js"></script>
 </body>
 </html>

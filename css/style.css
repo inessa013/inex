@@ -12,6 +12,7 @@ body {
     --color-white: #fff;
     --color-white-a: rgba(255, 255, 255, 0.8);
     --color-accent: rgb(82, 0, 0);
+    --color-accent-a: rgba(82, 0, 0, 0.9);
     --color-base: rgb(206, 167, 167);
     --color-active: rgb(220, 100, 100);
     --color-base-a: rgba(205, 165, 165, 0.374);
